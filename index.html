@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+    <title>My Resume</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Nhoy</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About Me</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Experience</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Project</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Contact Me</a>
+                    </li>
+                </ul>
+                <!-- Close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <div class="nav__actions">
+                <!-- Search button -->
+                <i class="ri-search-line nav__search" id="search-btn"></i>
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="search" id="search">
+        <form action="" class="search__form">
+            <i class="ri-search-line search__icon"></i>
+            <input type="search" placeholder="What are you looking for?" class="search__input">
+        </form>
+
+        <i class="ri-close-line search__close" id="search-close"></i>
+    </div>
+    <section class="home-page" style="height: 100vh;">
+        <div class="anime-text">
+            <h2 class="hello">Hi, I'm Nhoy</h2>
+            <span class="text fist-text">I'm a </span>
+            <span class="text sec-text" id="animated-text">Freelancer</span>
+        </div>
+        <div class="detail">
+            <span class="detail-UI">UI UX Designer / Frontend Developer</span></span>
+        </div>
+        <div class="more">
+            <a href="resume.html">Download CV</a>
+            <a class="see-more" href="#">See More</a>
+        </div>
+        <!-- <div data-aos="fade-down-left" class="profile-image">
+            <img src="./Profile.png" width="80%" alt="Nhoy holding a camera">
+        </div> -->
+        <div class="profile-loader">
+            <img src="./image/Profile.png" width="280px" alt="">
+            <div class="round"></div>
+            <div class="round"></div>
+
+        </div>
+        <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=100050173215934&mibextid=JRoKGi"><i
+                    class="ri-facebook-circle-fill"></i></a>
+            <a href="https://github.com/PuNhoy/PuNhoy"><i class="ri-github-fill"></i></a>
+            <a href="#"><i class="ri-youtube-fill"></i></a>
+            <a href="#"><i class="ri-tiktok-fill"></i></a>
+            <a href="#"> <i class="ri-instagram-fill"></i></a>
+         
+        </div>
+    </section>
+
+    <section id="about" class="about-us" style="width: 100%; height: 100vh;">
+        <span class="get">Get to know more</span>
+        <h1 class="about">About Me</h1>
+        <div class="about-content">
+            <div class="image">
+                <img src="./profile1.png" width="400px" alt="">
+            </div>
+            <div class="skills">
+                <div class="skill-all">
+                    <div class="skill-box">
+                        <a href="#" class="rocket"><i class="ri-code-box-fill"></i></a>
+                        <h3>Experience</h3>
+                        <div class="progress-bar">
+                            <span>1+ Year</span><br>
+                            <span>UX UI Designner and FrontEnd</span>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <a href="#" class="ribbon"><i class="ri-medal-fill"></i></a>
+                        <h3>Education</h3>
+                        <div class="progress-bar">
+                            <span>NPIA Hight Diploma Degree</span><br>
+                            <span>BBU Bachelors Degree</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="history">A highly motivated and hard-working individual with good grades of a high diploma in
+                    electronic engineering from NPIA, And now studying three year of a bachelor's degree in information
+                    technology at Build Bright University. </p>
+            </div>
+        </div>
+    </section>
+    <a href="#" id="scrollUpBtn" class="scroll-up-button" onclick="scrollToTop()"><i class="ri-arrow-up-line"></i></a>
+
+
+
+
+
+
+
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
